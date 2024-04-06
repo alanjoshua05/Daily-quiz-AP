@@ -19,7 +19,7 @@ data = sheet.get_all_values()
 df = pd.DataFrame(data[1:], columns=data[0])
 
 # Display DataFrame using Streamlit
-st.title('Daily Quiz admit panel 🧑‍💼')
+st.title('Daily Quiz admin panel 🧑‍💼')
 st.subheader('Entire record')
 st.dataframe(df)
 st.subheader('Desire day report')
